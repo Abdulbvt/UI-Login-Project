@@ -1,0 +1,91 @@
+
+/* Styles for the entire UI login project */
+body {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:/Users/zahir/Desktop/firstproject_files/image02.JPG');
+}
+/* Styles for the container of UI login project */
+.Sign-container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0.2, 0.2);
+    border-radius: 8px;background-color: white;
+
+}
+/* Styles for the sign in head UI login project */
+.Sign-head {
+   
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 13px;
+}
+
+/* Styles for the Username UI login project */
+.Sign-Username {
+
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    width: 300px;
+}
+/* Styles for the Username input UI login project */
+#Username {
+    
+    padding: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    display: block;
+   
+}
+
+/* Styles for the password UI login project*/
+
+.Sign-Password {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    border-bottom: 2px solid black;
+    margin-top: 25px;
+   
+}
+
+/* Styles for the password input UI login project */
+#Password {
+
+    text-align: left;
+    justify-content: left;
+    padding: 13px;
+    border: none;
+    margin-bottom: 15px;
+   
+}
+
+/* Styles for the sign in button UI login project */
+ #Sign-button button {
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(10, 135, 237);
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+ }
+
+
+
+
+
+
